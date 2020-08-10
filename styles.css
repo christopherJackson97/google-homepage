@@ -1,0 +1,78 @@
+#header {
+    padding: 15px;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 10%;
+    font-size: 12px;
+}
+
+#header button{
+    background-color: blue;
+    color: white;
+}
+
+#left-header{
+    padding:14px 16px;
+    float:left;
+    text-align:left;
+}
+#right-header{
+    padding: 14px 16px;
+    float: right;
+    text-align: right;
+}
+
+#footer{
+    
+    position:fixed;
+    top:95%;
+    width:100%;
+    height:10%;
+    font-size: 12px;
+    background-color: lightgray;
+}
+#left-footer{
+    padding: 14px 16px;
+    float: left;
+    text-align: left;
+    
+}
+#right-footer{
+    padding: 14px 16px;
+    float: right;
+    text-align: right;
+}
+#main input{
+    width: 100%;
+}
+#main button{
+    height: 25px;
+
+}
+#luck{
+    position: fixed;
+    left: 70%;
+}
+
+#main{
+    position: fixed;
+    top:25%;
+    left:25%;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    display: flex;
+    flex: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    
+}
